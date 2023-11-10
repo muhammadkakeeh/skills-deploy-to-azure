@@ -99,6 +99,4 @@ jobs:
             az logout
             az cache purge
             az account clear
-              - name: Azure Login
-                uses: Azure/login@v1.4.6
             
